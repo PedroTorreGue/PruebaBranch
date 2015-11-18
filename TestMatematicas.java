@@ -30,8 +30,8 @@ public class TestMatematicas {
 		Scanner sc= new Scanner(System.in);
 		int entrada= sc.nextInt();	
 		boolean par=Matematicas.esPar(entrada);
-		boolean div3=Matematicas.esDivisiblePor3(entrada);
-		boolean div5=Matematicas.esDivisiblePor5(entrada);
+		boolean div3=Matematicas.esDivisiblePorTres(entrada);
+		boolean div5=Matematicas.esDivisiblePorCinco(entrada);
 		if (par==true)
 			System.out.println("El número "+entrada+" es par");
 		else

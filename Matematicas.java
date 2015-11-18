@@ -34,7 +34,7 @@ public class Matematicas {
 		return par;
 	}
 	
-	public static boolean esDivisiblePor3 (int entrada) {
+	public static boolean esDivisiblePorTres (int entrada) {
 		boolean div3=false;
 		if (entrada%3==0)
 			div3=true;
@@ -42,7 +42,7 @@ public class Matematicas {
 		return div3;
 	}
 	
-	public static boolean esDivisiblePor5 (int entrada) {
+	public static boolean esDivisiblePorCinco (int entrada) {
 		boolean div5=false;
 		if (entrada%5==0)
 			div5=true;
