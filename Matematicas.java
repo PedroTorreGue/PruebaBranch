@@ -33,5 +33,21 @@ public class Matematicas {
 		}
 		return par;
 	}
+	
+	public static boolean esDivisiblePor3 (int entrada) {
+		boolean div3=false;
+		if (entrada%3==0)
+			div3=true;
+			
+		return div3;
+	}
+	
+	public static boolean esDivisiblePor5 (int entrada) {
+		boolean div5=false;
+		if (entrada%5==0)
+			div5=true;
+			
+		return div5;
+	}
 }
 
